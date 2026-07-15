@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeamSync | 企業 AI Agent 生態系</title>
+    <meta
+      name="description"
+      content="TeamSync 是企業 AI Agent 生態系，串接協作、知識、客服、專案、財務、銷售與營運流程，支援 7 天試用申請。"
+    />
+    <link rel="stylesheet" href="./landing.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="TeamSync 首頁">
+        <span class="brand-mark">
+          <img src="./assets/ts-logo.svg" alt="" />
+        </span>
+        <span>TeamSync AI</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="#ecosystem">AI Agent 生態</a>
+        <a href="#use-cases">適用情境</a>
+        <a href="#trial-flow">試用流程</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="login-button" type="button" data-open-login>登入</button>
+        <a class="primary-button header-trial" href="#trial">申請 7 天試用</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow">Enterprise AI Agent Ecosystem</span>
+          <h1 id="hero-title">讓每個部門都有自己的 <span>AI Agent</span></h1>
+          <p>
+            一個平台，無限可能。TeamSync 將企業工作入口、AI Agent 生態、資料與流程串接在同一個平台，全面提升企業效能。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#trial">申請試用</a>
+            <button class="secondary-button" type="button" data-open-login>立即登入</button>
+          </div>
+          <dl class="hero-metrics" aria-label="TeamSync 平台重點">
+            <div>
+              <dt>7 天</dt>
+              <dd>可退款試用</dd>
+            </div>
+            <div>
+              <dt>30+</dt>
+              <dd>Agent 模組組合</dd>
+            </div>
+            <div>
+              <dt>1 個</dt>
+              <dd>企業工作入口</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-orbit" aria-label="TeamSync AI Agent 生態預覽">
+          <div class="orbit-ring orbit-ring-outer"></div>
+          <div class="orbit-ring orbit-ring-inner"></div>
+          <div class="orbit-center">
+            <img src="./assets/ts-logo.svg" alt="" />
+            <strong>TeamSync AI</strong>
+          </div>
+          <div class="orbit-item item-collab" data-icon="users">協作 AI Agent</div>
+          <div class="orbit-item item-knowledge" data-icon="book">知識 AI Agent</div>
+          <div class="orbit-item item-crm" data-icon="headset">客服 / CRM AI Agent</div>
+          <div class="orbit-item item-task" data-icon="check">專案 / 任務 AI Agent</div>
+          <div class="orbit-item item-finance" data-icon="receipt">財務 / 行政 AI Agent</div>
+          <div class="orbit-item item-sales" data-icon="chart">銷售 / 行銷 AI Agent</div>
+          <div class="orbit-item item-operation" data-icon="factory">製造 / 營運 AI Agent</div>
+        </div>
+      </section>
+
+      <section class="section intro-section" aria-labelledby="what-title">
+        <div class="section-heading">
+          <span class="eyebrow">What TeamSync Does</span>
+          <h2 id="what-title">TeamSync 是什麼</h2>
+          <p>從入口、Agent 到企業資料流程，TeamSync 把分散的工作訊號整理成可被部門直接使用的 AI 工作能力。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-item">
+            <span class="feature-icon" data-icon="rocket"></span>
+            <div>
+              <span class="feature-index">01</span>
+              <h3>快速導入</h3>
+              <p>依部門痛點選擇 AI Agent，先從一個流程開始，最快 1 天完成試用開通。</p>
+            </div>
+          </article>
+          <article class="feature-item">
+            <span class="feature-icon" data-icon="puzzle"></span>
+            <div>
+              <span class="feature-index">02</span>
+              <h3>彈性組合</h3>
+              <p>依部門需求自由搭配，打造最適合你的 AI 團隊。</p>
+            </div>
+          </article>
+          <article class="feature-item">
+            <span class="feature-icon" data-icon="tree"></span>
+            <div>
+              <span class="feature-index">03</span>
+              <h3>資料可治理</h3>
+              <p>把文件、表單、CRM 與任務資料整理成可追溯的工作脈絡，讓 AI 建議更可控。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ecosystem-section" id="ecosystem" aria-labelledby="ecosystem-title">
+        <div class="section-heading compact">
+          <span class="eyebrow">Agent Library</span>
+          <h2 id="ecosystem-title">AI Agent 生態分類</h2>
+        </div>
+        <div class="agent-category-grid" id="agent-category-grid"></div>
+      </section>
+
+      <section class="section pain-section" id="use-cases" aria-labelledby="pain-title">
+        <div class="section-heading">
+          <span class="eyebrow">From Pain To Agent</span>
+          <h2 id="pain-title">企業煩惱，對應可啟用的 Agent</h2>
+          <p>先從最痛的流程開始，不需要一次替換所有系統。</p>
+        </div>
+        <div class="pain-grid" id="pain-grid"></div>
+      </section>
+
+      <section class="section trial-section" id="trial" aria-labelledby="trial-title">
+        <div class="section-heading">
+          <span class="eyebrow">7-Day Trial</span>
+          <h2 id="trial-title">申請 7 天試用</h2>
+          <p>你可以自己勾選想試的 AI Agent，也可以讓 TeamSync 顧問依需求推薦包套。</p>
+        </div>
+
+        <div class="trial-layout">
+          <article class="trial-card choose-card">
+            <div>
+              <span class="card-kicker">Path A</span>
+              <h3>自行選擇 AI Agent</h3>
+              <p>適合已經知道要改善哪個部門流程的團隊，勾選 Agent 後確認方案並留下付款與聯絡資訊。</p>
+            </div>
+            <div class="agent-picker" id="agent-picker"></div>
+            <div class="selection-summary" aria-live="polite">
+              <strong id="selected-count">已選 0 個 Agent</strong>
+              <span id="selected-names">請先勾選想試用的 Agent</span>
+            </div>
+            <a class="primary-button full" href="https://tally.so/r/teamsync-agent-trial" target="_blank" rel="noreferrer">
+              確認選擇並留資
+            </a>
+          </article>
+
+          <article class="trial-card recommend-card">
+            <div>
+              <span class="card-kicker">Path B</span>
+              <h3>幫我推薦方案</h3>
+              <p>適合想先釐清需求的團隊。完成 Tally.so 問卷後，系統先整理推薦包套，再由數辰顧問協助確認。</p>
+            </div>
+            <div class="recommend-preview">
+              <div>
+                <span>需求問卷</span>
+                <b>5 分鐘</b>
+              </div>
+              <div>
+                <span>推薦包套</span>
+                <b>部門情境</b>
+              </div>
+              <div>
+                <span>顧問開通</span>
+                <b>專人協助</b>
+              </div>
+            </div>
+            <a class="secondary-button full" href="https://tally.so/r/teamsync-recommendation" target="_blank" rel="noreferrer">
+              填寫需求問卷
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section flow-section" id="trial-flow" aria-labelledby="flow-title">
+        <div class="section-heading compact">
+          <span class="eyebrow">How Trial Works</span>
+          <h2 id="flow-title">7 天試用流程</h2>
+        </div>
+        <ol class="flow-list">
+          <li>
+            <span>01</span>
+            <strong>選擇 Agent 或填寫問卷</strong>
+            <p>自行勾選 AI Agent，或透過需求問卷取得推薦包套。</p>
+          </li>
+          <li>
+            <span>02</span>
+            <strong>付款與聯絡資訊</strong>
+            <p>留下企業資料、聯絡窗口與付款資訊，作為試用資格保留。</p>
+          </li>
+          <li>
+            <span>03</span>
+            <strong>數辰聯絡開通</strong>
+            <p>顧問確認部門情境、資料來源與初始 Agent 配置。</p>
+          </li>
+          <li>
+            <span>04</span>
+            <strong>試用與退款</strong>
+            <p>7 天內評估適配度，不符合需求可依試用規則協助退款。</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading compact">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">常見問題</h2>
+        </div>
+        <div class="faq-list" id="faq-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="#top" aria-label="TeamSync 首頁">
+          <span class="brand-mark">
+            <img src="./assets/ts-logo.svg" alt="" />
+          </span>
+          <span>TeamSync AI</span>
+        </a>
+        <p>企業 AI Agent 生態系，由數辰協助導入與開通。</p>
+      </div>
+      <div class="footer-links">
+        <a href="#ecosystem">AI Agent 生態</a>
+        <a href="#trial">申請試用</a>
+        <button type="button" data-open-login>登入</button>
+      </div>
+    </footer>
+
+    <div class="modal-backdrop" data-login-modal hidden>
+      <section class="login-modal" role="dialog" aria-modal="true" aria-labelledby="login-title">
+        <button class="modal-close" type="button" aria-label="關閉登入視窗" data-close-login></button>
+        <span class="eyebrow">Customer Login</span>
+        <h2 id="login-title">登入 TeamSync</h2>
+        <form class="login-form">
+          <label>
+            <span>企業網域</span>
+            <input type="text" name="domain" placeholder="your-company" autocomplete="organization" required />
+          </label>
+          <label>
+            <span>帳號</span>
+            <input type="email" name="email" placeholder="name@company.com" autocomplete="email" required />
+          </label>
+          <label>
+            <span>密碼</span>
+            <input type="password" name="password" placeholder="輸入密碼" autocomplete="current-password" required />
+          </label>
+          <button class="primary-button full" type="submit">登入工作台</button>
+        </form>
+        <p class="modal-note">若尚未開通企業網域，請先申請 7 天試用或聯絡數辰顧問。</p>
+      </section>
+    </div>
+
+    <aside class="chatbot" aria-label="TeamSync AI 顧問">
+      <button class="chatbot-fab" type="button" aria-expanded="false" aria-controls="chatbot-panel">
+        <span>AI</span>
+        <b>顧問</b>
+      </button>
+      <section class="chatbot-panel" id="chatbot-panel" hidden>
+        <div class="chatbot-header">
+          <div>
+            <strong>TeamSync AI 顧問</strong>
+            <span>產品問答、需求引導、轉真人</span>
+          </div>
+          <button type="button" aria-label="收合 AI 顧問" data-close-chat></button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages" aria-live="polite"></div>
+        <div class="chatbot-quick">
+          <button type="button" data-chat-prompt="我想改善客服回覆">客服回覆</button>
+          <button type="button" data-chat-prompt="請推薦適合製造業的 Agent">製造業</button>
+          <button type="button" data-chat-prompt="我要轉真人顧問">轉真人</button>
+        </div>
+        <form class="chatbot-input" id="chatbot-form">
+          <input type="text" id="chatbot-text" placeholder="輸入你的需求" autocomplete="off" />
+          <button type="submit">送出</button>
+        </form>
+      </section>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./landing.js"></script>
+  </body>
+</html>
